@@ -1,0 +1,178 @@
+ 
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    color: black;
+    margin: 20px;
+    line-height: 1.6;
+  }
+  header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+ 
+  h1 {
+    color: lightblue;
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 28px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  h3 {
+    color: #666;
+    font-size: 22px;
+    margin-top: 30px;
+  }
+  
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  
+  b {
+    color: #000;
+  }
+  
+  i {
+    color: #555;
+  }
+
+  .navbar {
+    list-style: none;
+    background-color: burlywood;
+    padding: 0;
+    margin: 0 0 20px 0;
+    overflow: hidden;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+  }
+  .navbar a:hover {
+    background-color: #555;
+  }
+  .layout-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    flex: 1 1 250px;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  /* Main Content */
+  .main-content {
+    flex: 3 1 600px;
+  }
+  
+  /* Content Box */
+  .box {
+    background-color: #e3f2fd;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  
+
+  img {
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+  }
+  .form-box {
+    background-color: #fff;
+    padding: 20px;
+    margin : 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    width: 90%;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea,
+  select {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  input[type="submit"] {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #357ab7;
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+  }
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  
+  
+  

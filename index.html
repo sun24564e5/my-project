@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>My First Webpage</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My First Webpage!</h1>
+    </header>
+    <nav>
+      <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+
+      </ul>
+    </nav>
+     
+     <div class="layout-container">
+
+      
+      <aside class="sidebar">
+        <h2>Sidebar</h2>
+        <ul>
+          <li><a href="#">Log in</li>
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Resource 3</a></li>
+        </ul>
+      </aside>
+      
+
+      <main class="main-content">
+
+        <div class="box">
+     
+    <p>Hello! My name is <b>Bill</b>.</p>
+    
+    <p>
+      I am learning <i>HTML</i> and it's really fun!<br>
+      I love coding and creating cool stuff on the web.
+    </p>
+    
+    <h2>About Me</h2>
+    <p>I am a student who enjoys exploring technology and solving problems.</p>
+    <img src="html2.jpg" alt="I enjoy solving problems" width="500" >
+
+    <h3>My Favorite Quote</h3>
+    <p><i>"The best way to predict the future is to invent it."</i></p>
+    <button onclick="showMessage()">Click Me</button>
+  </div>
+
+  <!-- JavaScript Section -->
+  <script>
+    function showMessage() {
+      alert("Welcome to my blog.");
+    }
+  </script>
+
+    
+    <br>
+    </div>
+    </main>
+    </div>
+    
+
+    <div class="form-box">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <fieldset>
+          <legend>Gender:</legend>
+          <input type="radio" id="male" name="gender" value="Male">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="Female">
+          <label for="female">Female</label>
+        </fieldset>
+
+         
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+          <option value="kenya">Kenya</option>
+          <option value="uganda">Uganda</option>
+          <option value="tanzania">Tanzania</option>
+        </select>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="30"></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    <footer>
+      <p>&copy; 2025 My Webpage. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
