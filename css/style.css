@@ -1,107 +1,50 @@
- /* Basic Page Styles */
+/* Custom styles to enhance Bootstrap-based layout */
+
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f9;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 20px;
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-.container {
-  background-color: #ffffff;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: 800px;
-  text-align: center;
+.navbar {
+  background-color: #343a40;
+  padding:10px ;
+  align-items:center ;
 }
-
-h1 {
-  color: #3498db;
-}
-
-h2 {
-  margin-top: 30px;
-  color: #333;
-}
-
-/* Product Section */
-.product-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+h1, h2 {
   margin-bottom: 20px;
-  justify-content: center;
 }
 
 .product-item {
-  background-color: #f9f9f9;
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #dee2e6;
   border-radius: 10px;
-  padding: 20px;
-  width: 150px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
-.product-item p {
-  margin: 0 0 10px 0;
-  color: #555;
-}
-/* Product Images */
-.product-item img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  margin-bottom: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+.product-item:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-
-/* Button Styles */
-button {
-  background-color: #3498db;
-  color: #ffffff;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 5px;
-  cursor: pointer;
-  margin: 10px 0;
-  transition: background-color 0.3s;
+#cart {
+  margin-top: 15px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-button:hover {
-  background-color: #2980b9;
+input::placeholder {
+  font-style: italic;
+  color: #6c757d;
 }
 
-/* Input Styles */
-input[type="text"], input[type="number"] {
-  padding: 10px;
-  margin: 10px 0;
-  width: 80%;
-  border-radius: 6px;
-  border: 1px solid #ccc;
+button:focus {
+  outline: none;
+  box-shadow: none;
 }
 
-/* Cart Styles */
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 20px 0;
-}
-
-ul li {
-  background-color: #f4f4f4;
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  color: #333;
-}
-
-/* Checkout Message */
 #checkoutMessage {
-  font-weight: bold;
-  color: #27ae60;
-  margin-top: 20px;
+  text-align: center;
+  font-size: 1.2rem;
 }
